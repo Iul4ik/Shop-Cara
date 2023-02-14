@@ -1,0 +1,30 @@
+.items {
+  font-family: 'Merriweather', serif;
+  background: #f2ede7;
+  border-radius: 4px;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+  overflow: hidden;
+}
+
+.items__control {
+  width: 40px;
+  color: #465b52;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  transition: 0.2s ease-in;
+  text-align: center;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.items__control:hover {
+  background: #eb5a1e;
+  color: #FFF;
+}

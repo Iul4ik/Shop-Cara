@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Cart</title>
+</head>
+<body>
+  
+  <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo" alt ="logo"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="lg-bag">
+                <div class="header__cart">
+                    <button class="checkout" style="border: none; background-color: transparent;" >
+                        <a class="active" href="cart.html">
+                            <img src="img/001-shopping-bag.png" alt="">
+                            <span>0</span>
+                        </a>
+                    </button>
+                </div>
+            </li>
+            <a href="#" id="close"><img src="/img/svg/close-bold-svgrepo-com.svg" alt=""></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><img src="img/001-shopping-bag.png" alt="cart"></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </section>
+
+  <section id="page-header" class="about-header">
+    <h2>#let's_talk</h2>
+    <p>LEAVE A MESSAGE,We love to hear from you!</p>
+  </section>
+
+  <div class="container">
+    <div class="cart-in-cart">
+        <ul>
+            <li class="li-in-cart">
+                <p class="p-cart">
+                    <span>Name</span>
+                    <span>Quantity</span>
+                    <span>Price</span>
+                    <span>Total</span>
+                </p>
+            </li>
+            <hr>
+        </ul>
+    </div>
+  </div>
+
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Yout Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart subtotal</td>
+                <td>
+                    <div class="header__cart">
+                        <p class="total"><span>0</span></p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td>
+                    <div class="header__cart">
+                        <p class="total2"><span>0</span></p>
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+        <button class="normal addtocart pay">Proceed to checkout</button>
+    </div>
+  </section>
+
+  <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i onclick="window.location.href='https:www.facebook.com'" class="fab fa-facebook-f"></i>
+                <i onclick="window.location.href='https:www.twitter.com'" class="fab fa-twitter"></i>
+                <i onclick="window.location.href='https:www.instagram.com'" class="fab fa-instagram"></i>
+                <i onclick="window.location.href='https:www.pinterest.com'" class="fab fa-pinterest-p"></i>
+                <i onclick="window.location.href='https:www.youtube.com'" class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="cart.html">View Cart</a>
+        <a href="#">My WishList</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="app">
+            <img src="img/pay/play.jpg" alt="play">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="pay">
+    </div>
+  </footer>
+
+  <div class="copyright">
+    <p>© 2011, Tech2 etc - HTML CSS Ecommerce Template</p>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/cart.js"></script>
+
+</body>
+</html>
