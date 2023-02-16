@@ -150,7 +150,7 @@ if (payBtn) {
 
   });
 }
-if (window.location.href === "http://localhost:3000/cart.html") {
+if (window.location.href === "http://localhost:3006/cart.html" || "http://localhost:3008/cart.html") {
   
   checkOut();
 }
